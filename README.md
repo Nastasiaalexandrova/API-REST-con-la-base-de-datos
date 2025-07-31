@@ -25,3 +25,22 @@ ESPECIFICACIONES:
 
     No hace falta modificar el fichero HTML y/o el CSS, 
     pero lo puedes si tienes una causa JUSTIFICADA.
+
+## Instrucciones
+
+1. Instalar dependencias:
+npm install
+
+2. Crear la base de datos con `initDB.js` (si no existe):
+node initDB.js
+
+3. Ejecutar el servidor:
+node app.js
+
+4. Acceder a `http://localhost:3000/` en el navegador.
+
+Rutas disponibles:
+- `/alumnes`
+- `/cursos`
+- `/matricules`
+- `/stats`
